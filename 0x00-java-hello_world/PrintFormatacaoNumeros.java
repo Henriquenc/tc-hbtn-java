@@ -12,6 +12,6 @@ public class PrintFormatacaoNumeros {
         String pattern = "#,##0.00";
         DecimalFormat formatador = new DecimalFormat(pattern, symbol);
         System.out.printf("Valor: R$ %s\n", formatador.format(valor));
-        System.out.printf("Taxa: %.2f%%", taxa);
+        System.out.printf("Taxa: %.2f%%\n", taxa);
     }
 }
